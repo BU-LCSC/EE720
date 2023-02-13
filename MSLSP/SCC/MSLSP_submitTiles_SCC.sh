@@ -1,7 +1,7 @@
 
 module load jq
 
-parameters="/usr3/graduate/mkmoon/GitHub/MSLSP/MSLSP_Parameters.json"
+parameters="/usr3/graduate/mkmoon/GitHub/EE720/MSLSP/MSLSP_Parameters.json"
 tileList="tileLists/cr_etc.txt"
 
 numCores=$( jq .SCC.numCores $parameters )

@@ -7,9 +7,9 @@
     "phenStartYr":2018,
     "phenEndYr":2020,
     
-    "downloadImagery":false,
-    "preprocessImagery":true,
-    "runPhenology":true,
+    "downloadImagery":true,
+    "preprocessImagery":false,
+    "runPhenology":false,
     
     "runFmaskSentinel":true,
     
