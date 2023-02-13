@@ -50,15 +50,15 @@ then
         qsub $nameArg $logArg_download $downloadArg runDownloadHLS.sh $tile $baseDir $imgStartYr $imgEndYr
     done < $tileList
 
-    while read -r tile
-    do
-        tileDir="${workDir}${tile}/"
-        paramName="${tileDir}parameters_${jobTime}.json"
-        nameArg="-N R_${tile}"
-        logArg="-o ${logDir}Run_${tile}_${jobTime}.txt"
-        holdArg="-hold_jid DL_${tile}"
-        qsub $nameArg $logArg $nodeArgs $holdArg MSLSP_runTile_SCC.sh $tile $paramName $jobTime
-    done < $tileList
+    # while read -r tile
+    # do
+    #     tileDir="${workDir}${tile}/"
+    #     paramName="${tileDir}parameters_${jobTime}.json"
+    #     nameArg="-N R_${tile}"
+    #     logArg="-o ${logDir}Run_${tile}_${jobTime}.txt"
+    #     holdArg="-hold_jid DL_${tile}"
+    #     qsub $nameArg $logArg $nodeArgs $holdArg MSLSP_runTile_SCC.sh $tile $paramName $jobTime
+    # done < $tileList
 else
     while read -r tile
     do
