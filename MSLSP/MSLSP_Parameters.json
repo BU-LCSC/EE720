@@ -42,9 +42,9 @@
     "workDir":"/projectnb/nasa-marsh/MSLSP/Output/",
     "logDir":"/projectnb/nasa-marsh/MSLSP/runLogs/",
     "dataDir":"/projectnb/nasa-marsh/MSLSP/Input/",
-    "rScript":"/usr3/graduate/mkmoon/GitHub/MSLSP/MSLSP_Script.r",
-    "rFunctions":"/usr3/graduate/mkmoon/GitHub/MSLSP/MSLSP_Functions.r",
-    "productTable":"/usr3/graduate/mkmoon/GitHub/MSLSP/MSLSP_Layers.csv",
+    "rScript":"/usr3/graduate/mkmoon/GitHub/EE720/MSLSP/MSLSP_Script.r",
+    "rFunctions":"/usr3/graduate/mkmoon/GitHub/EE720/MSLSP/MSLSP_Functions.r",
+    "productTable":"/usr3/graduate/mkmoon/GitHub/EE720/MSLSP/MSLSP_Layers.csv",
     "fmaskFunction":"/projectnb/nasa-marsh/fmask_compiled/autoFmask_HLS",
     
     "numCores":48,
