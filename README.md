@@ -16,5 +16,5 @@ Sample scripts for accessing and visualizing satellite remote sensing imagery
 
 **Open and visualize HLS V1.4 imagery**
 - HLS V1.4 iamgery is arcived into a format HDF [https://en.wikipedia.org/wiki/Hierarchical_Data_Format]
-- Using a R package `terra` (or `raster' for older verions of R), we can easily handle HDF files
+- Using a R package `terra` (or `raster` for older verions of R), we can easily handle HDF files
 - A R script `~/EE720/MSLSP/Development/EE720_001.r` is for a simple example how to load and display HLS imagery on `rstudio`
