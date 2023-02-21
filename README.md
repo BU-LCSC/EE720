@@ -3,6 +3,7 @@ Sample scripts for accessing and visualizing satellite remote sensing imagery
 
 
 **Download HLS V1.4 imagery**
+- Downloaing HLS imagery using a bash shell script
    1. Select tile(s), save them as a txt file into: e.g., `~/EE720/MSLSP/SCC/tileLists/cr_etc.txt`
    2. Edit JSON file (`~/EE720/MSLSP/MSLSP_Parameters.json`) to set 
       - Time range (L4 and 5): `imgStarYr` for starting year and `imgEndYr` for ending year
@@ -16,4 +17,3 @@ Sample scripts for accessing and visualizing satellite remote sensing imagery
 - HLS V1.4 iamgery are arcived into a format HDF [https://en.wikipedia.org/wiki/Hierarchical_Data_Format]
 - Using a R package `terra' (or `raster' for older verions of R), we can easily handle HDF files
 - A R script `~/EE720/MSLSP/Development/EE720_001.r` is for a simple example how to load and display HLS imagery on `rstudio`
-- 
