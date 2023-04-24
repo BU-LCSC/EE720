@@ -11,13 +11,14 @@ library(rjson)
 # Tile 
 tile <- '15RXN'
 
-# json files
-params <- fromJSON(file='/usr3/graduate/mkmoon/GitHub/EE720/MSLSP/MSLSP_Parameters.json')
+# json files; Make sure you changed this file path for your own
+params <- fromJSON(file='~/EE720/MSLSP/MSLSP_Parameters.json')
 
 # List of files
 imgList <- list.files(paste0(params$SCC$dataDir,'HLS30/',tile,'/images'),pattern=glob2rx('*hdf'),full.names=T)
 
 # Set base image
+# Each layer in `sds` represents each band
 sds <- unlist(gdal_subdatasets(imgList[360]))
 qaName  <-  sds[14]
 baseImage  <-  rast(qaName) 
